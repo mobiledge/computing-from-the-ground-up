@@ -25,7 +25,7 @@ jobs:
           submodules: recursive
 
       - name: Install Hugo
-        run: sudo snap install hugo
+        run: sudo snap install hugo --channel=extended/stable
 
       - name: Build
         run: hugo --minify
