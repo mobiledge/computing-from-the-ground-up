@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Computing from the Ground Up"
+theme = "hugo-book"
+
+[params]
+  BookSection = "docs"
+  BookToC = true

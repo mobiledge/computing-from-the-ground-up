@@ -1,3 +1,8 @@
+---
+title: "Making Decisions with Electricity"
+weight: 2
+---
+
 # Chapter 2: Making Decisions with Electricity
 
 At the end of the last chapter, we landed on a single rule: a wire is either on (1) or off (0). That's the whole alphabet of a computer — two letters, nothing more.

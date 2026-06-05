@@ -1,3 +1,8 @@
+---
+title: "The Wire: Electricity as Information"
+weight: 1
+---
+
 # Chapter 1: The Wire — Electricity as Information
 
 Let's start with the most honest possible description of a computer.
