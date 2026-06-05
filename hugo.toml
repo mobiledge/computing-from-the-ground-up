@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://mobiledge.github.io/computing-from-the-ground-up/"
 languageCode = "en-us"
 title = "Computing from the Ground Up"
 theme = "hugo-book"
