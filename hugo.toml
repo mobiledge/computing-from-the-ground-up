@@ -6,3 +6,6 @@ theme = "hugo-book"
 [params]
   BookSection = "docs"
   BookToC = true
+
+[markup.goldmark.renderer]
+  unsafe = true

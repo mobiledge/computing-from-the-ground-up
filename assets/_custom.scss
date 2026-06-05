@@ -2,3 +2,11 @@ body,
 .markdown {
   font-family: 'Lora', Georgia, serif;
 }
+
+.book-toc a {
+  color: #555;
+
+  &:hover {
+    color: #222;
+  }
+}
