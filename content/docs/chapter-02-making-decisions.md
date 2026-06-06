@@ -1,9 +1,9 @@
 ---
-title: "Making Decisions with Electricity"
+title: "Making Decisions with Electricity: The Transistor"
 weight: 2
 ---
 
-# Chapter 2: Making Decisions with Electricity
+# 2. Making Decisions with Electricity: The Transistor
 
 At the end of the last chapter, we landed on a single rule: a wire is either on (1) or off (0). That's the whole alphabet of a computer — two letters, nothing more. And we left ourselves with a question: what if we want one wire to *react* to what other wires are doing?
 

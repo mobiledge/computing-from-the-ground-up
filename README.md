@@ -6,8 +6,8 @@ A book that explains how computers work — starting from a single wire and buil
 
 ## Contents
 
-1. The Wire: Electricity as Information
-2. Making Decisions with Electricity
+1. Electricity as Information: The Wire
+2. Making Decisions with Electricity: The Transistor
 3. Teaching a Wire to Remember *(coming soon)*
 4. Scaling Memory Up *(coming soon)*
 5. Teaching Wires to Calculate *(coming soon)*

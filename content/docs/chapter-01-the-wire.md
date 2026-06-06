@@ -1,11 +1,17 @@
 ---
-title: "The Wire: Electricity as Information"
+title: "Electricity as Information: The Wire"
 weight: 1
 ---
 
-# Chapter 1: The Wire — Electricity as Information
+# 1. Electricity as Information: The Wire
 
-Let's start with the most honest possible description of a computer.
+Pick up a handful of sand. It runs through your fingers — coarse, dull, completely ordinary. There is nothing in it that hints at thought.
+
+And yet every computer you have ever used began as exactly this. Sand, melted and purified into silicon, sliced into thin wafers, and etched with billions of switches too small to see. The most intricate objects humanity has ever built are made, in the end, from one of the most common things on Earth.
+
+This book is about how that is possible — not the chemistry of refining sand, but the *ideas* we layer on top of it, one at a time, until a handful of the ground beneath our feet can add, remember, and decide. We'll build a computer from the bottom up, starting with the simplest part there is.
+
+So let's start with the most honest possible description of a computer.
 
 It is a machine made of wires. Billions of them, impossibly small, etched into a sliver of silicon you could hold between your fingers. And at any given moment, each one of those wires is doing exactly one of two things: it either has electricity flowing through it, or it doesn't.
 

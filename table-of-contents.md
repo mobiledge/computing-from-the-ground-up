@@ -48,4 +48,16 @@
    - A worked example: running a simple program
    - How this scales to real processors
 
+<!--
+TODO (framing bookend): End this final chapter with the "sand" callback that
+closes the loop opened in Chapter 1's prologue. Suggested closing text:
+
+> Look back at what we built. A switch became a gate, gates became memory,
+> memory and arithmetic became a machine that runs programs. And all of it —
+> every wire, every switch — is etched into a sliver of refined sand. You
+> started with a handful of the most ordinary stuff on Earth, and layered idea
+> upon idea until it could think.
+-->
+
+
 *More chapters coming soon...*
