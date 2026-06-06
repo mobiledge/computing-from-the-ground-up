@@ -20,3 +20,7 @@ bookToc: false
   <li style="color: #aaa;">Directing Traffic: The Control Unit</li>
   <li style="color: #aaa;">Putting It Together: A Simple CPU</li>
 </ol>
+
+<p style="margin-top: 3rem; font-size: 0.85rem;">
+  <a href="https://github.com/mobiledge/computing-from-the-ground-up" style="color: #aaa; text-decoration: none;">View on GitHub</a>
+</p>

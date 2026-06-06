@@ -19,16 +19,7 @@ A book that explains how computers work — starting from a single wire and buil
 Built with [Hugo](https://gohugo.io) and the [hugo-book](https://github.com/alex-shpak/hugo-book) theme.
 
 ```bash
-hugo server   # preview locally at http://localhost:1313
-```
-
-Chapters live in `content/docs/`. Each file requires frontmatter:
-
-```yaml
----
-title: "Chapter Title"
-weight: 3
----
+hugo server -D   # preview locally at http://localhost:1313/
 ```
 
 Pushing to `main` deploys automatically via GitHub Actions.

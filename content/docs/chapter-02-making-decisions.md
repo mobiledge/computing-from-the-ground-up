@@ -5,41 +5,41 @@ weight: 2
 
 # Chapter 2: Making Decisions with Electricity
 
-At the end of the last chapter, we landed on a single rule: a wire is either on (1) or off (0). That's the whole alphabet of a computer — two letters, nothing more.
+At the end of the last chapter, we landed on a single rule: a wire is either on (1) or off (0). That's the whole alphabet of a computer — two letters, nothing more. And we left ourselves with a question: what if we want one wire to *react* to what other wires are doing?
 
-But an alphabet on its own isn't useful. You need rules for combining letters into words. So the question we need to answer now is: how do we make wires interact with each other? How do we build something where the state of one wire depends on the state of others?
+To answer it, we need to look closer.
 
-In other words — how do we make electricity make decisions?
+So far we've been picturing wires from a distance — long lines carrying a signal from one place to another, billions of them threaded across a chip. At that scale, a wire is just a wire. But a computer isn't only wires. It's wires that *meet*. Pick any two of them that need to come together and zoom in on the point where they join. Let's see what's actually there.
 
 ---
 
-## The Problem: Wires Don't Talk to Each Other
+## Zooming In on the Junction
 
-Take two wires. One is on. One is off. By themselves, they do nothing to each other. They can run side by side for metres without either one affecting the other. Wires, on their own, are passive. They carry a signal from one place to another, but they don't react to anything.
+From far away, it looks like the two wires simply touch — signal flows in one, out the other, nothing to see. But that can't be the whole story. If every junction just passed signals straight through, the chip would be one giant tangle of wires all shouting at once, and nothing would ever *decide* anything.
 
-What we need is something in between — a component that sits between wires and says: *"I will look at what's coming in, and decide what goes out."*
+So zoom in further, right to the gap where the wires almost meet. At this resolution, something new comes into view. The wires don't quite touch. Sitting in the gap between them is a tiny component — and whether the signal crosses from one wire to the other is up to it.
 
-Think of it like a doorman at a club. The doorman doesn't just wave everyone through (that would be a plain wire). He looks at who's arriving and applies a rule. Maybe his rule is: "both people in a group need ID." Or maybe: "let anyone through if at least one of them is on the guest list." The rule is what makes him useful. Without a rule, he's just standing in the way.
+It's a switch.
 
-We need a doorman for electricity. Something that looks at incoming signals and applies a rule to decide the outgoing signal.
+Not the kind you flip with a finger. This switch has a third wire running to it, and *that* wire is what decides whether the gap is open or closed. When the third wire is on, the gap closes and the signal passes through. When it's off, the gap stays open and the signal is blocked.
+
+That's the thing we were missing in Chapter 1. We saw wires carrying signals. We didn't yet see the switches sitting between them — the places where one wire gets to control another. They were there all along; we just hadn't looked closely enough.
+
+This switch has a name. It's called a *transistor*.
 
 ---
 
 ## The Transistor: A Switch You Can Control with Electricity
 
-Here's where things get clever.
+Let's pin down exactly what we found in that gap.
 
-You already know what a light switch does. You flip it, and it either lets electricity through or blocks it. Simple. But a light switch needs a human finger to operate it — it can't respond to other electrical signals.
+A transistor has three connections. One wire brings electricity in. One wire lets it out the other side. And one wire — the control wire — decides whether the electricity is allowed to cross between them. When the control wire is on, the transistor conducts: electricity flows through. When the control wire is off, the transistor blocks: nothing gets through.
 
-Now imagine a switch that you don't flip with your finger. Instead, you control it with another wire. When that control wire is on, the switch opens and lets electricity through. When the control wire is off, the switch closes and blocks it.
-
-That's a *transistor*.
-
-A transistor has three connections. One wire brings electricity in. One wire lets it out the other side. And one wire — the control wire — decides whether the electricity is allowed to pass. When the control wire is on, the transistor conducts: electricity flows through. When the control wire is off, the transistor blocks: nothing gets through.
-
-It is, at its heart, just a switch. But it's a switch that electricity itself can flip.
+You already know most of this from ordinary switches. Flip a light switch and it either lets electricity through or blocks it. The only new idea is that this switch isn't flipped by a finger — it's flipped by another wire. Electricity controls electricity. That single twist is what lets one signal react to another.
 
 This is the component that makes everything possible. Modern processors contain billions of them, each one smaller than a virus. But we don't need to worry about the physics of how a transistor is built. What matters is what it *does*: it lets one wire control whether another wire gets through.
+
+It also helps to have a picture in mind for what we're about to do. Think of a transistor as a doorman standing in the gap between wires. A plain junction waves every signal through. A doorman applies a rule — "I'll only let this through under such-and-such conditions" — and the control wire is what tells him the conditions. One doorman alone enforces a simple rule. But line a few of them up, hand each one its own control wire, and the rules they can enforce together get surprisingly rich.
 
 With that one trick, we can start building decision-making machines.
 
@@ -65,7 +65,7 @@ So:
 
 It only turns on when both inputs are on. Our doorman's rule is: "I need to see both of you." We've built that rule out of two transistors and a wire.
 
-We'll give this its name in a moment. For now, just notice what happened: two passive components, wired together carefully, enforce a logical rule.
+We'll give this its name in a moment. For now, just notice what happened: two simple switches, wired together carefully, enforce a logical rule.
 
 ---
 
@@ -132,7 +132,7 @@ The other compound gates — **NOR** (Not OR), **XOR** (on when inputs are *diff
 
 ## Where We Are
 
-We started this chapter with passive wires that couldn't interact. We introduced the transistor — a switch controlled by electricity — and used it to build circuits that enforce logical rules. Those circuits are now our new building blocks. We don't need to think about transistors anymore; we can think in terms of gates.
+We started this chapter by zooming in on the junction between two wires, and we found a switch sitting in the gap: the transistor, a switch controlled by electricity. We used it to build circuits that enforce logical rules. Those circuits are now our new building blocks. We don't need to think about transistors anymore; we can think in terms of gates.
 
 But there's a problem we haven't solved yet. All of these gates are *stateless*. The moment you change the inputs, the output changes. The circuit has no memory of what it was doing a moment ago. It can't hold onto a value.
 
