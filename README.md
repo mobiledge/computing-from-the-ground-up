@@ -19,7 +19,7 @@ A book that explains how computers work — starting from a single wire and buil
 Built with [Hugo](https://gohugo.io) and the [hugo-book](https://github.com/alex-shpak/hugo-book) theme.
 
 ```bash
-hugo server -D   # preview locally at http://localhost:1313/
+hugo server -D   # preview locally at http://localhost:1313/computing-from-the-ground-up/
 ```
 
 Pushing to `main` deploys automatically via GitHub Actions.
