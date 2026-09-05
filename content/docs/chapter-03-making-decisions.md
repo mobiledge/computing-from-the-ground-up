@@ -1,11 +1,16 @@
 ---
 title: "Making Decisions with Electricity: The Transistor"
-weight: 2
+weight: 3
+aliases: ["/docs/chapter-02-making-decisions/"]
 ---
 
-# 2. Making Decisions with Electricity: The Transistor
+# 3. Making Decisions with Electricity: The Transistor
 
-At the end of the last chapter, we landed on a single rule: a wire is either on (1) or off (0). That's the whole alphabet of a computer — two letters, nothing more. And we left ourselves with a question: what if we want one wire to *react* to what other wires are doing?
+By the end of the last chapter we could write. A row of wires, each one merely on or off, could hold any number we liked — and any letter, any colour, anything at all we cared to make an agreement about.
+
+And then we walked straight into the problem with writing something down: it just sits there. A row of wires holding thirteen holds thirteen forever. Nothing we have built can add to it, compare it, copy it, or react to it in any way at all. We have an alphabet, and we have a language, and we have nothing that can read.
+
+So we left ourselves with a question: what if we want one wire to *react* to what other wires are doing?
 
 To answer it, we need to look closer.
 
@@ -23,7 +28,7 @@ It's a switch.
 
 Not the kind you flip with a finger. This switch has a third wire running to it, and *that* wire is what decides whether the gap is open or closed. When the third wire is on, the gap closes and the signal passes through. When it's off, the gap stays open and the signal is blocked.
 
-That's the thing we were missing in Chapter 1. We saw wires carrying signals. We didn't yet see the switches sitting between them — the places where one wire gets to control another. They were there all along; we just hadn't looked closely enough.
+That's the thing we were missing in the first two chapters. We saw wires carrying signals, and we learned to read those signals as numbers. We didn't yet see the switches sitting between them — the places where one wire gets to control another. They were there all along; we just hadn't looked closely enough.
 
 This switch has a name. It's called a *transistor*.
 

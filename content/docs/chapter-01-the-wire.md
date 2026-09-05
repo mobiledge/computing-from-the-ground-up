@@ -71,6 +71,6 @@ Before we move on to the next chapter, let's make the one rule of this book expl
 
 That's the bedrock. We'll call the two states **1** and **0** — not because those numbers mean "one" and "zero" in the normal arithmetic sense, but simply because we need a shorthand for "on" and "off."
 
-In the next chapter, we're going to ask a question that sounds simple but turns out to be profound: what if we want one wire to *react* to what other wires are doing? What if we want a wire to turn on only when two other wires are both on? What if we want it to turn on when either one is on, but not both?
+Earlier in this chapter I made a claim and moved on quickly: that with enough wires, you could represent every letter, every number, every colour on your screen. That claim is true. But it is not obvious, and it is not free — it takes an agreement, and we haven't made it yet.
 
-We'll build the answer from scratch — no prior knowledge required. And by the end of it, we'll have something that can make decisions.
+In the next chapter we'll make it. We'll take a row of wires that are nothing but on and off, and turn them into numbers, using a trick you have been using your whole life without once noticing it.

@@ -13,7 +13,8 @@ bookToc: false
 
 <ol style="display: inline-block; text-align: left; line-height: 2.2; padding-left: 1.2rem;">
   <li><a href="docs/chapter-01-the-wire/">Electricity as Information: The Wire</a></li>
-  <li><a href="docs/chapter-02-making-decisions/">Making Decisions with Electricity: The Transistor</a></li>
+  <li><a href="docs/chapter-02-counting-with-wires/">Counting with Wires: Binary</a></li>
+  <li><a href="docs/chapter-03-making-decisions/">Making Decisions with Electricity: The Transistor</a></li>
   <li style="color: #aaa;">Teaching a Wire to Remember</li>
   <li style="color: #aaa;">Scaling Memory Up</li>
   <li style="color: #aaa;">Teaching Wires to Calculate</li>
